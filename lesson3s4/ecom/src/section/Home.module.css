@@ -1,0 +1,52 @@
+.home{
+    padding:4rem 2rem;
+    background-color: bisque;
+    text-align: center;
+}
+.slogan h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(37, 101, 101);
+}
+
+.slogan p{
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    color: black;
+    max-width: 800px;
+}
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:1rem;
+}
+.grid{
+    display:flex;
+    gap:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+}
+.card{
+    background-color: #fff;
+    padding:1rem;
+    flex:1 1 120px;
+    max-width: 180px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card img{
+    max-width: 80px;
+}
+.card h3{
+    font-size: 1rem;
+    margin: 0;
+    color: rgb(37, 101, 101);
+}
+.news h1{
+    color: rgb(37, 101, 101);
+    text-decoration: underline;
+    font-size: 1.6rem;
+}

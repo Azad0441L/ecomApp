@@ -1,0 +1,20 @@
+.class1{
+    color:aqua;
+    background-color: rgb(75, 186, 149);
+}
+.class2{
+    border: solid 2px rgb(93, 17, 17);
+    font-style:italic ;
+
+}
+#id1{
+    color: blueviolet;
+    background-color: black;
+}
+#id2{
+    background-color: cadetblue;
+    color:burlywood;
+}
+body{
+    margin-top: 100px;
+}

@@ -1,0 +1,7 @@
+
+
+
+    CRA => npx create react app app-CRA
+    vite => npm create vite@latest app-vite
+    npm run dev
+    npm install react-player
