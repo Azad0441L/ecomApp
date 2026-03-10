@@ -1,5 +1,5 @@
 import style from "./Products.module.css"
-export default function product({products}){
+export default function Products({products}){
     return(
         <div className={style.product}>
             <img src={products.images} alt={products.ref}/>

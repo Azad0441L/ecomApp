@@ -8,10 +8,9 @@ export default function Product(){
             <div className={style.grid}>
                 <h2>Nos produits</h2>
                 {
-                    products.map(p=><Products key={p.id} product={p}/>)
+                    products.map(p=><Products key={p.id} products={p}/>)
                 }
             </div>
-
-        </section>
+            </section>
     )
 }
